@@ -6,6 +6,5 @@ class MessagesJob
       message: message,
       timestamp: Time.now
     }
-    puts "message sent #{event}"
   end
 end
