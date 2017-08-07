@@ -9,7 +9,7 @@ end
 gem 'rails', '~> 5.0.4'
 gem 'pg'
 gem 'puma', '~> 3.0'
-
+gem 'sidekiq'
 group :development, :test do
   gem 'byebug', platform: :mri
 end
