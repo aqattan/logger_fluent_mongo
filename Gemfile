@@ -10,6 +10,11 @@ gem 'rails', '~> 5.0.4'
 gem 'pg'
 gem 'puma', '~> 3.0'
 gem 'sidekiq'
+gem 'fluentd', '~> 0.12.0'
+gem 'act-fluent-logger-rails'
+gem 'lograge'
+gem 'fluent-plugin-mongo'
+gem 'mongo'
 group :development, :test do
   gem 'byebug', platform: :mri
 end
